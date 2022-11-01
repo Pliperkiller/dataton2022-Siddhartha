@@ -27,14 +27,14 @@ Contiene dos sub carpetas que a su vez contienen mas carpetas con información:
  
 - scripts: Contiene los programas que se han desarrollado para cumplir con el objetivo. A continuación se realiza una breve descripción de los programas contenidos actualmente:
 
-- entrenamiento_categorizacion.ipynb: Programa que contiene una serie de funciones a través de las cuales se realiza el proceso de tokenización para las noticias y el proceso de entrenamiento del modelo Bayesiano.
+> entrenamiento_categorizacion.ipynb: Programa que contiene una serie de funciones a través de las cuales se realiza el proceso de tokenización para las noticias y el proceso de entrenamiento del modelo Bayesiano.
 
-- limpieza_clientes.ipynb: Programa que realiza la limpieza de la base de datos clientes.csv, se emplean ex
+> limpieza_clientes.ipynb: Programa que realiza la limpieza de la base de datos clientes.csv, se emplean ex
 
-- path.xlsx: Archivo que contiene el arbol de rutas de las carpetas. Es de aclarar que siempre que se vayan a ejecutar por primera vez los notbooks es necesario eliminar este archivo.
+> path.xlsx: Archivo que contiene el arbol de rutas de las carpetas. Es de aclarar que siempre que se vayan a ejecutar por primera vez los notbooks es necesario eliminar este archivo.
 
-- prueba.ipynb: Archivo de pruebas.
+> prueba.ipynb: Archivo de pruebas.
 
-- url_config.py: Funciones con la configuración del webscrapping de varios periodicos.
+> url_config.py: Funciones con la configuración del webscrapping de varios periodicos.
 
-- utilitools.py: Herramientas varias. 
+> utilitools.py: Herramientas varias. 
