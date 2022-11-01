@@ -20,6 +20,7 @@ Contiene dos sub carpetas que a su vez contienen mas carpetas con información:
 
 - data:
   -archivos auxiliares: Contiene un archivo de excel llamado url_noticias_clasificadas.xlsx, el cual contiene los links de las noticias clasificadas que se utilizaron                           para realizar el entrenamiento.
+  
   -output: Contiene un archivo csv llamado categorizacion.csv, el cuál tiene la clasificación de las noticias proporcionadas a través de la base noticias.csv
  
  Adicionalmente contiene los tres csv proporcionados para realizar el proyecto.
