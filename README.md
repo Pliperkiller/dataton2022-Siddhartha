@@ -23,6 +23,18 @@ Contiene dos sub carpetas que a su vez contienen mas carpetas con información:
   
   -output: Contiene un archivo csv llamado categorizacion.csv, el cuál tiene la clasificación de las noticias proporcionadas a través de la base noticias.csv
  
- Adicionalmente contiene los tres csv proporcionados para realizar el proyecto.
+ Adicionalmente contiene los tres csv proporcionados para realizar el proyecto. Los cuales son: clientes.csv, clientes_noticias.csv, noticias.csv
  
-- scripts: Contiene los programas que se han desarrollado para cumplir con el objetivo. 
+- scripts: Contiene los programas que se han desarrollado para cumplir con el objetivo. A continuación se realiza una breve descripción de los programas contenidos actualmente:
+
+- entrenamiento_categorizacion.ipynb: Programa que contiene una serie de funciones a través de las cuales se realiza el proceso de tokenización para las noticias y el proceso de entrenamiento del modelo Bayesiano.
+
+- limpieza_clientes.ipynb: Programa que realiza la limpieza de la base de datos clientes.csv, se emplean ex
+
+- path.xlsx: Archivo que contiene el arbol de rutas de las carpetas. Es de aclarar que siempre que se vayan a ejecutar por primera vez los notbooks es necesario eliminar este archivo.
+
+- prueba.ipynb: Archivo de pruebas.
+
+- url_config.py: Funciones con la configuración del webscrapping de varios periodicos.
+
+- utilitools.py: Herramientas varias. 
