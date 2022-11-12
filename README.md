@@ -38,3 +38,20 @@ Contiene dos sub carpetas que a su vez contienen mas carpetas con información:
   > url_config.py: Funciones con la configuración del webscrapping de varios periodicos.
 
   > utilitools.py: Herramientas varias. 
+
+
+
+
+Fase limpieza de todos los dataframes: Cómo parte del proceso de limpieza de datos decidimos iniciar por el dataframe clientes, y realizar una limpieza a la columna del nombre de la empresa, esto con el fin de que fuera mas facil realizar una coincidencia entre el nombre y el texto de la noticia. 
+
+Fase clasificador: Nuestro clasificador se basa en un modelo de aprendizaje supervisado. Inicialmente se creo un archivo llamado Url noticias clasificadas el cual se encuentra en... y contiene dos columnas, una primera columna con la URL de noticias y una segunda columna con la clasificación de cada una de estás, este documento se creo con el objetivo de brindarle al programa un diccionario lexico que le permite determinar con que frecuencia se utilizan cierta cantidad de palabras o palabras especificas. Luego de tener el archivo, realizamos un proceso de webscrapping con ayuda de la libreria Beautifulsoup de Python, para utilizar esta libreria de una manera automatica creamos una función para cada una de las páginas web utilizadas, esta función se encuentra en ela rchivo url_config.py y es llamada en el código principal para usarla en el proceso de entrenamiento.
+
+Se utiliza un modelo Bayesiano
+
+Inicialmente se crea 
+
+Fase participación:
+
+Fase recomendación:
+
+
